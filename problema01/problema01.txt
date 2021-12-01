@@ -1,0 +1,51 @@
+Problema 01
+Tomando con referencia la clase de sus ángulos, los triángulos se clasifican en:
+
+Rectángulo tiene un ángulo recto (igual a 90°)
+Obtusángulo tiene un ángulo obtuso (mayor que 90° pero menor 180°)
+Acutángulo los tres ángulos son agudos (menor que 90°) 
+Elaborar un algoritmo que permita leer el tamaño de los tres ángulos (A,B,C) de un 
+triángulo e imprima qué tipo es.
+
+
+------------------------------------- Algoritmo ------------------------------------- 
+1. Inicio
+2. Se pide el valor del ánguloA
+3. Se pide el valor del ánguloB
+4. Se pide el valor del ánguloC
+5. Se verifica, si alguno de los valores ingresados en los ángulos es igual a 90, si es
+	verdadero entonces es un tirangulo tipo rectangulo
+6. caso contrario, si alguno de los valores ingresados en los ángulos es mayor a 90, 
+	y menor a 180 entonces es un triangulo tipo obtusangulo
+7. caso contrario, si alguno de los valores ingresados en los ángulos es menor a 90, 
+	entonces es un triangulo tipo acutangulo
+8. Se muestra en pantalla el tipo de triangulo
+9. Fin
+
+
+---------------------------------- Miniespecificación ----------------------------------
+
+1. Inicio
+
+2. anguloA, i[0, n];
+3. anguloB, i[0, n];
+4. anguloC, i[0, n];
+5. tipo_triangulo, x(100) [{BS}, {a-z}, {A-Z}];
+
+6. SI (anguloA == 90 || anguloB == 90 || anguloC == 90) entonces
+7. tipo_triangulo <-- "rectangulo"
+
+8. De lo contrario 
+9. Si (((anguloA > (90)) && (anguloA <= (180)))
+	|| ((anguloB > (90)) && (anguloB <= (180)))
+        || ((anguloC > (90)) && (anguloC <= (180))))  entonces
+10.  tipo_triangulo <--  "obtusangulo"; 
+
+11. De lo contrario 
+12. Si (anguloA < 90 || anguloB < 90 || anguloC < 90)
+      tipo_triangulo <--  "Acutangulo";
+
+13. Fin_si
+
+12. Escrbir: "el triangulo es tipo" + tipo_triangulo
+13. Fin

@@ -1,0 +1,57 @@
+Problema 04
+
+Elaborar un algoritmo que permita leer 3 números e imprima el mayor. Debe validar que 
+sean diferentes, es decir, si hay números iguales debe enviar un mensaje de error.
+
+------------------------------------- Algoritmo ------------------------------------- 
+1. Inicio
+2. Se pide el valor del numero 1
+3. Se pide el valor del numero 2
+4. Se pide el valor del numero 3
+5. Se verifica, si el numero 1 con el numero 2 y 3 son iguales, o si el numero 2 y 3 
+	son iguales, de ser asi se muestra un mensaje de error
+6. caso contrario, si el numero 1 es mayor al numero 2 y 3 la respuesta es el numero 1
+7. caso contrario, si el numero 2 es mayor al numero 1 y 3 la respuesta es el numero 2
+8. caso contrario, si el numero 3 es mayor al numero 1 y 2 la respuesta es el numero 3
+9. Se muestra la respuesta en pantalla
+10. fin
+
+
+---------------------------------- Miniespecificación ----------------------------------
+
+1. Inicio
+
+2. numero1, d[0, n];
+3. numero2, d[0, n];
+4. numero3, d[0, n];
+5. respuesta, d[0, n] <-- 0;
+
+6. Escribir "ingrese el valor del primer numero"
+7. Leer numero1
+
+8. Escribir "ingrese el valor del segundo numero"
+9. Leer numero2
+
+10. Escribir "ingrese el valor del tercer numero"
+11. Leer numero3
+
+12. Si ((numero1 == numero2) || (numero1 == numero3)
+                || (numero2 == numero3))  entonces
+13. Escribir "los numeros ingresados no son validos" 
+
+14. De lo contrario 
+15. Si ((numero1 > numero2) && (numero1 > numero3))
+16.     respuesta <-- numero1 ;
+
+17. De lo contrario 
+18. Si ((numero2 > numero1) && (numero2) > (numero3))
+19.     respuesta <-- numero2 ;
+
+20. De lo contrario 
+21. Si ((numero3 > numero1) && (numero3 > numero2))
+22.     respuesta <-- numero3 ;
+
+23. Fin_si
+
+24. Escrbir: "la respuesta es" + respuesta
+25. Fin

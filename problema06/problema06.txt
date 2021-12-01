@@ -1,0 +1,41 @@
+Problema 06
+
+laborar un algoritmo que calcule e imprima la suma 1 + 1/2 + 1/3 + 1/4 ... + 1/100
+
+
+
+------------------------------------- Algoritmo ------------------------------------- 
+1. Inicio
+2. Se declaran las variables en este caso el limite es igual a 100, el numerador 
+	empieza en 1, el denominador empieza en 2, y el signo que vamos a utilizar es
+	el positivo, 
+3. empezamos generando un ciclo (en este caso haga hasta)
+4. Se forma una cadena donde primero va el signo, luego el numerador, agregamos el 
+	signo de dividir (/) y luego el denominador
+5. el denominador aumenta en 1  hasta que el denominador sea menor o igual al limite
+	que en este caso seria 100
+6. termina el ciclo
+7. Se agrega un 1 + antes de la cadena
+7. Se presenta en pantalla el valor final de nuestra cadena
+8. Fin
+
+
+---------------------------------- Miniespecificación ----------------------------------
+
+1. Inicio
+
+2. limite, i[0, n] <-- 100;
+3. numerador, i[0, n] <-- 1;
+4. denominador, i[0, n] <-- 2;
+5. signo, x(10) [{+}] <-- +;
+6. cadena, x(1000)[{0, n}, {/, +}, {BS}] <-- "";
+
+
+7. Haga_Hasta
+8. cadena <-- (cadena + signo + numerador + / + denominador)
+9. denominador <-- denominador + 1
+
+10. Fin Haga_Hasta (denominador <= limite);
+
+11. Escribir (1 + " " + cadena)
+12. Fin
