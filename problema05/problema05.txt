@@ -11,11 +11,11 @@ para clasificar el cuadrante del plano donde está ubicada la coordenada (X, Y )
 3. Se pide ingresar el valor de y
 4. Se agrupan las coordenadas
 5. Se verifica, Si el valor de x es mayor a 0 y el valor de y es mayor a 0 entonces las
-	coordendas estan ubicadas en el cuadrante I
+	coordenadas estan ubicadas en el cuadrante I
 6. caso contrario, si el valor de x es menor a 0 y el valor de y es mayor a 0 entonces las
-	coordendas estan ubicadas en el cuadrante II
+	coordenadas estan ubicadas en el cuadrante II
 7. caso contrario, Si el valor de x es menor a 0 y el valor de y es menor a 0 entonces las
-	coordendas estan ubicadas en el cuadrante III
+	coordenadas estan ubicadas en el cuadrante III
 8. Caso contrario, si el valor de X es mayor a 0 y el valor de Y es menor a 0 entonces las
 	coordenadas estan en el cuadrante IV
 9. Se muestra en pantalla las coordenadas

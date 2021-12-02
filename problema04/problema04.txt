@@ -53,5 +53,5 @@ sean diferentes, es decir, si hay números iguales debe enviar un mensaje de err
 
 23. Fin_si
 
-24. Escrbir: "la respuesta es" + respuesta
+24. Escribir: "la respuesta es" + respuesta
 25. Fin

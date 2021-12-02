@@ -38,6 +38,6 @@ N metros de uno en uno. Equivalencias: 1 pie = 12 pulgadas, 1 yarda = 3 pies,
 14. Escribir "metros=" + metros, "yardas=" + yardas, "pulgadas="  + pulgadas,
 	"pies=" + pies  
 
-12. Hasta  (metros < medida_metros)
+15. Hasta  (metros < medida_metros)
 
-13. Fin
+16. Fin

@@ -11,53 +11,53 @@ cuota por hora.
 1. Inicio
 
 2. cuota, d[0, n];
-2. sueldo, d[0, n];
-3. tipo_empleado, i[0, n];
-4. nombre, x(10) [{BS}, {-n, n}, {/};
-5. numero_horas, i[0, n];
+3. sueldo, d[0, n];
+4. tipo_empleado, i[0, n];
+5. nombre, x(10) [{BS}, {-n, n}, {/};
+6. numero_horas, i[0, n];
 
 
-6. Escribir "Ingrese el nombre del empleado"
-7. Leer nombre
+7. Escribir "Ingrese el nombre del empleado"
+8. Leer nombre
 
-8. Escribir "Ingrese el tipo de empleado"
-9. Leer tipo_empleado
+9. Escribir "Ingrese el tipo de empleado"
+10. Leer tipo_empleado
 
-10. Escribir "Ingrese el numero de horas trabajadas"
-11. Leer numero_horas
+11. Escribir "Ingrese el numero de horas trabajadas"
+12. Leer numero_horas
 
-12. Escribir "Ingrese la cuota por pagar"
-13. Leer cuota
+13. Escribir "Ingrese la cuota por pagar"
+14. Leer cuota
 
 
-14. Si (tipo_empleado == 1) Entonces
-15. Si ((numero_horas > 40)) Entonces
-15.         cuota <-- numero_horas * 1.5 * cuota;
-16.         sueldo <-- cuota;
-17. De lo contrario 
-18. Leer no alzanca las horas requeridas
-19 Fin si (linea 15)
+15. Si (tipo_empleado == 1) Entonces
+16. Si ((numero_horas > 40)) Entonces
+17.         cuota <-- numero_horas * 1.5 * cuota;
+18.         sueldo <-- cuota;
+19. De lo contrario 
+20. Leer no alcanza las horas requeridas
+21. Fin si (linea 15)
 
-17. De lo contrario 
-18. Si (tipo_empleado == 2) Entonces
-19.         cuota <-- numero_horas * 2 * cuota;
-20.         sueldo <-- cuota;
+22. De lo contrario 
+23. Si (tipo_empleado == 2) Entonces
+24.         cuota <-- numero_horas * 2 * cuota;
+25.         sueldo <-- cuota;
 
-21. De lo contrario
-22. Si (tipo_empleado == 3) Entonces
-23.         cuota <-- numero_horas * 2.5 * cuota;
-24.         sueldo <-- cuota;
+26. De lo contrario
+27. Si (tipo_empleado == 3) Entonces
+28.         cuota <-- numero_horas * 2.5 * cuota;
+29.         sueldo <-- cuota;
 
-25. De lo contrario 
-26. Si (tipo_empleado == 4) Entonces
-27.         cuota <-- numero_horas * 3 * cuota;
-28.         sueldo <-- cuota;
+30. De lo contrario 
+31. Si (tipo_empleado == 4) Entonces
+32.         cuota <-- numero_horas * 3 * cuota;
+33.         sueldo <-- cuota;
 
-29. De lo contrario
-30. Leer "El tipo de empleado es incorrecto"
+34. De lo contrario
+35. Leer "El tipo de empleado es incorrecto"
 
-31. Fin_si   
+36. Fin_si   
 
-32. Escribir "El sueldo a pagar es" + sueldo
+37. Escribir "El sueldo a pagar es" + sueldo
 
-33. Fin
+38. Fin

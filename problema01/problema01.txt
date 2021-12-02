@@ -14,7 +14,7 @@ triángulo e imprima qué tipo es.
 3. Se pide el valor del ánguloB
 4. Se pide el valor del ánguloC
 5. Se verifica, si alguno de los valores ingresados en los ángulos es igual a 90, si es
-	verdadero entonces es un tirangulo tipo rectangulo
+	verdadero entonces es un triangulo tipo rectangulo
 6. caso contrario, si alguno de los valores ingresados en los ángulos es mayor a 90, 
 	y menor a 180 entonces es un triangulo tipo obtusangulo
 7. caso contrario, si alguno de los valores ingresados en los ángulos es menor a 90, 
@@ -39,13 +39,13 @@ triángulo e imprima qué tipo es.
 9. Si (((anguloA > (90)) && (anguloA <= (180)))
 	|| ((anguloB > (90)) && (anguloB <= (180)))
         || ((anguloC > (90)) && (anguloC <= (180))))  entonces
-10.  tipo_triangulo <--  "obtusangulo"; 
+10.  tipo_triangulo <--  "obtusangulo";
 
 11. De lo contrario 
 12. Si (anguloA < 90 || anguloB < 90 || anguloC < 90)
-      tipo_triangulo <--  "Acutangulo";
+      tipo_triangulo <--  "Acutangulo"
 
 13. Fin_si
 
-12. Escrbir: "el triangulo es tipo" + tipo_triangulo
-13. Fin
+14. Escribir: "el triangulo es tipo" + tipo_triangulo
+15. Fin

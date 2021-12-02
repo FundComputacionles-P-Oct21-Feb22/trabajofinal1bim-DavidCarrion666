@@ -16,8 +16,8 @@ laborar un algoritmo que calcule e imprima la suma 1 + 1/2 + 1/3 + 1/4 ... + 1/1
 	que en este caso seria 100
 6. termina el ciclo
 7. Se agrega un 1 + antes de la cadena
-7. Se presenta en pantalla el valor final de nuestra cadena
-8. Fin
+8. Se presenta en pantalla el valor final de nuestra cadena
+9. Fin
 
 
 ---------------------------------- Miniespecificación ----------------------------------

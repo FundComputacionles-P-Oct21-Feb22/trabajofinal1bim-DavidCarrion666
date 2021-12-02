@@ -22,7 +22,7 @@ un mensaje de error.
 
 
 10. Si (numero > 2 && numero MOD 2 == 0) Entonces
-11.         Escribir "la suma de los numeros pares hastael numero ingresado es"
+11.         Escribir "la suma de los numeros pares hasta el numero ingresado es"
 
 12. Mientras (contador <= numero)
 13.  	contador = contador + 2;
@@ -40,4 +40,4 @@ un mensaje de error.
 
 21. Fin_si   
 
-32. Fin
+22. Fin
